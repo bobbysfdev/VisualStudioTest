@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_Mailing_Address__c</fullName>
+    <externalId>false</externalId>
+    <label>Copy Mailing Address</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add seperate addresses</fullName>
+                <default>false</default>
+                <label>Add seperate addresses</label>
+            </value>
+            <value>
+                <fullName>Mailing Same as Shipping Address</fullName>
+                <default>false</default>
+                <label>Mailing Same as Shipping Address</label>
+            </value>
+            <value>
+                <fullName>Shipping Same as Mailing Address</fullName>
+                <default>false</default>
+                <label>Shipping Same as Mailing Address</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
